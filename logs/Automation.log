@@ -1,0 +1,42 @@
+00:01:42.686 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Admin\Desktop\shardul_WebDriverDemos\Opencart101\crossbrowser.xml] otherwise TestNG may fail or not work as expected.
+00:01:42.977 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\Desktop\shardul_WebDriverDemos\Opencart101\crossbrowser.xml
+
+00:01:50.482 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest  ****
+00:01:50.483 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest  ****
+00:01:50.961 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link.. 
+00:01:51.216 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link.. 
+00:02:01.377 [TestNG-tests-1] ERROR testCases.TC001_AccountRegistrationTest - Test failed: element not interactable
+  (Session info: chrome=136.0.7103.48)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eaca2a4c5e0bf6425e31b8ef85f8dcd2, clickElement {id=f.75C45FB3DDCAAC9878096ACDE8807782.d.483BB1C57EB5F862B1BBBEA079C9BF15.e.936}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.48, chrome: {chromedriverVersion: 136.0.7103.48 (8d621d9143e4..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51858}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51858/devtoo..., se:cdpVersion: 136.0.7103.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (eaca2a4c5e0bf6425e31b8ef85f8dcd2)] -> xpath: //a[normalize-space()='Register']]
+Session ID: eaca2a4c5e0bf6425e31b8ef85f8dcd2
+00:02:01.384 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+00:02:09.535 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link.. 
+00:02:09.783 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details...
+00:02:09.793 [TestNG-tests-2] ERROR testCases.TC001_AccountRegistrationTest - Test failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=136.0.7103.48)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eaca2a4c5e0bf6425e31b8ef85f8dcd2, findElement {using=xpath, value=//input[@id='input-firstname']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.48, chrome: {chromedriverVersion: 136.0.7103.48 (8d621d9143e4..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51858}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51858/devtoo..., se:cdpVersion: 136.0.7103.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eaca2a4c5e0bf6425e31b8ef85f8dcd2
+00:02:09.793 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+00:02:37.211 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Admin\Desktop\shardul_WebDriverDemos\Opencart101\Master.xml] otherwise TestNG may fail or not work as expected.
+00:02:37.441 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\Desktop\shardul_WebDriverDemos\Opencart101\Master.xml
+
+00:02:46.545 [main] INFO  testCases.TC003_LoginDDT - ***** Stating TC_003_LoginDDT ******
+00:02:49.004 [main] INFO  testCases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
+00:02:49.031 [main] INFO  testCases.TC003_LoginDDT - ***** Stating TC_003_LoginDDT ******
+00:02:51.640 [main] INFO  testCases.TC003_LoginDDT - ***** Stating TC_003_LoginDDT ******
+00:02:54.545 [main] INFO  testCases.TC003_LoginDDT - ***** Stating TC_003_LoginDDT ******
+00:03:06.882 [main] INFO  testCases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
+00:03:06.898 [main] INFO  testCases.TC003_LoginDDT - ***** Stating TC_003_LoginDDT ******
+00:03:08.904 [main] INFO  testCases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******

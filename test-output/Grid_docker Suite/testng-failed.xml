@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Grid_docker Suite]">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="LinuxChromeTest(failed)">
+    <parameter name="os" value="Linux"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC002_LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_login"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC002_LoginTest -->
+    </classes>
+  </test> <!-- LinuxChromeTest(failed) -->
+</suite> <!-- Failed suite [Grid_docker Suite] -->
