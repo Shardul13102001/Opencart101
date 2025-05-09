@@ -1,8 +1,8 @@
-# 🛒 OpenCart101 – Automation Framework
+🛒 OpenCart101 – Automation Framework
 
 Welcome to **OpenCart101**, an end-to-end automation testing framework built from scratch for an eCommerce web application (OpenCart). This project applies real-world tools and industry-level practices used by automation testers in product-based companies.
 
----
+
 
 ## 🔧 Tech Stack & Tools Used
 
@@ -21,31 +21,31 @@ Welcome to **OpenCart101**, an end-to-end automation testing framework built fro
 - **OS & Platforms:** Linux (for containerized runs)  
 - **Project Management Tool:** JIRA (experience-based)
 
----
+
 
 ## 💡 Project Highlights
 
-✅ Built the framework using **Page Object Model (POM)**  
-✅ Used **TestNG** for managing and organizing tests via groups and annotations  
-✅ Managed dependencies and build using **Maven**  
-✅ Implemented **Data-Driven Testing (DDT)** for login via Excel data (Apache POI)  
-✅ Executed tests using:
+--Built the framework using **Page Object Model (POM)**  
+--Used **TestNG** for managing and organizing tests via groups and annotations  
+--Managed dependencies and build using **Maven**  
+--Implemented **Data-Driven Testing (DDT)** for login via Excel data (Apache POI)  
+--Executed tests using:
 - `pom.xml` (via Maven)
 - `.bat` file (for one-click execution)
 - **Jenkins** integration for CI/CD pipeline
 
-✅ Integrated with **Selenium Grid** to run parallel tests across multiple browsers  
-✅ Created custom **Log4j log files** saved neatly in the `logs` folder  
-✅ Implemented **screenshot capture** for failed tests (auto-saved in dedicated folder)  
-✅ Designed beautiful **Extent Reports** that generate after execution  
-✅ Used **Git & GitHub** for version control  
-✅ Setup **Docker containers** for isolated test execution environments  
-✅ **API Testing** support via **Postman** and **Rest Assured**  
-✅ Few more test cases are currently **WIP…**
+--Integrated with **Selenium Grid** to run parallel tests across multiple browsers  
+--Created custom **Log4j log files** saved neatly in the `logs` folder  
+--Implemented **screenshot capture** for failed tests (auto-saved in dedicated folder)  
+--Designed beautiful **Extent Reports** that generate after execution  
+--Used **Git & GitHub** for version control  
+--Setup **Docker containers** for isolated test execution environments  
+--**API Testing** support via **Postman** and **Rest Assured**  
+--Few more test cases are currently **WIP…**
 
----
 
-## 📂 Project Structure
+
+📂 Project Structure
 📦 src/test/java
 ┣ 📁 base → WebDriver setup & teardown
 ┣ 📁 pages → POM classes for web pages
@@ -59,7 +59,7 @@ Welcome to **OpenCart101**, an end-to-end automation testing framework built fro
 📄 config.properties
 📄 run.bat → Batch file for one-click execution
 
-## 🚀 How to Run the Project
+# How to Run the Project
 
 1. Clone the Repository
    
